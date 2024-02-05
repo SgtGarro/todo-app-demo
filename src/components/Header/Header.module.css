@@ -1,0 +1,23 @@
+.header {
+  background: linear-gradient(
+      270deg,
+      rgba(85, 150, 255, 0.55),
+      rgba(172, 45, 235, 0.55)
+    ),
+    url('../../assets/img/bg-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 28rem;
+  padding: 6.4rem 3.2rem;
+}
+.headerContainer {
+  max-width: 56rem;
+  margin: 0 auto;
+}
+.title {
+  font-size: 5.4rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: 3.2rem;
+}

@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  display: flex;
+  gap: 1.2rem;
+}
+.todoInput {
+  width: 100%;
+  padding: 1.6rem 2.4rem;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1;
+  color: var(--text-color);
+  transition: box-shadow 0.15s ease;
+}
+.todoInput:focus {
+  box-shadow: inset 0 0 0 2px var(--primary-color);
+}
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.btn:hover {
+  background-color: #2b6ef7;
+}

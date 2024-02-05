@@ -1,0 +1,54 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+.btn {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 999px;
+  border: 2px solid var(--primary-color);
+  background: none;
+  cursor: pointer;
+}
+.btnIcon {
+  width: 2rem;
+  height: 2rem;
+  stroke: #fff;
+  display: none;
+}
+.btn--active {
+  background: var(--primary-color);
+}
+.btn--active .btnIcon {
+  display: block;
+}
+.description {
+  font-size: 1.8rem;
+  width: 100%;
+}
+.btn--delete {
+  flex: none;
+  background: none;
+  width: 3.6rem;
+  height: 3.6rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn--delete svg {
+  width: 2rem;
+  height: 2rem;
+}
+.btn--delete:hover {
+  background: #fa5252;
+}
+.btn--delete:hover svg {
+  color: #fff;
+}
